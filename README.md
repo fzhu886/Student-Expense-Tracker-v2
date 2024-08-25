@@ -111,6 +111,6 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-Your Name - your.email@example.com
+Fan Zhu - fzhu@ualberta.ca
 
 Project Link: [https://github.com/your-username/student-expense-tracker](https://github.com/your-username/student-expense-tracker)
