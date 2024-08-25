@@ -26,19 +26,64 @@ Before you begin, ensure you have the following installed:
 
 ## Installation
 
+### Backend Setup
+
 1. Clone the repository:
    ```
-   git clone https://github.com/fzhu886/Student-Expense-Tracker-v2
+   git clone <repository-url>
+   cd student-expense-tracker-backend
    ```
 
-2. Navigate to the project directory:
+2. Create a virtual environment and activate it:
    ```
-   cd student-expense-tracker
+   python -m venv venv
+   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
    ```
 
 3. Install dependencies:
    ```
+   pip install -r requirements.txt
+   ```
+
+4. Set up the PostgreSQL database:
+   - Create a database named `student_expense_tracker`
+   - Create a user named `expense_tracker_user` with password `secure_password`
+   - Grant all privileges on the database to the user
+
+5. Apply migrations:
+   ```
+   python manage.py migrate
+   ```
+
+6. Create a superuser for Django admin:
+   ```
+   python manage.py createsuperuser
+   ```
+
+### Frontend Setup
+
+1. Navigate to the frontend directory:
+   ```
+   cd ../student-expense-tracker
+   ```
+
+2. Install dependencies:
+   ```
    npm install
+   ```
+
+### Running the Application
+
+1. Start the backend server:
+   ```
+   cd student-expense-tracker-backend
+   python manage.py runserver
+   ```
+
+2. In a new terminal, start the frontend development server:
+   ```
+   cd student-expense-tracker
+   npm start
    ```
 
 ## Running the Development Server
