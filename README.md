@@ -1,5 +1,9 @@
 # Student Expense Tracker App
 
+## UI Screenshot
+![Screenshot 2024-08-25 141124](https://github.com/user-attachments/assets/c5a6bb26-ada8-42c8-95b6-9e2e8d4ee87b)
+
+
 ## Description
 
 The Student Expense Tracker is a React-based web application designed to help students manage their expenses efficiently. It features a user-friendly interface built with Chakra UI, allowing users to set budgets, add expenses, categorize spending, and view reports.
