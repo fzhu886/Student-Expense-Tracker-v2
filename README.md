@@ -22,7 +22,7 @@ Before you begin, ensure you have the following installed:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/student-expense-tracker.git
+   git clone https://github.com/fzhu886/Student-Expense-Tracker-v2
    ```
 
 2. Navigate to the project directory:
@@ -113,4 +113,4 @@ This project is licensed under the MIT License.
 
 Fan Zhu - fzhu@ualberta.ca
 
-Project Link: (https://github.com/fzhu886/Student-Expense-Tracker-v2/tree/main)
+Project Link: (https://github.com/fzhu886/Student-Expense-Tracker-v2)
