@@ -30,8 +30,8 @@ Before you begin, ensure you have the following installed:
 
 1. Clone the repository:
    ```
-   git clone <repository-url>
-   cd student-expense-tracker-backend
+   git clone https://github.com/fzhu886/Student-Expense-Tracker-v2
+   cd Student-Expense-Tracker-v2
    ```
 
 2. Create a virtual environment and activate it:
@@ -64,7 +64,7 @@ Before you begin, ensure you have the following installed:
 
 1. Navigate to the frontend directory:
    ```
-   cd ../student-expense-tracker
+   cd ../Student-Expense-Tracker-v2
    ```
 
 2. Install dependencies:
@@ -76,13 +76,12 @@ Before you begin, ensure you have the following installed:
 
 1. Start the backend server:
    ```
-   cd student-expense-tracker-backend
    python manage.py runserver
    ```
 
 2. In a new terminal, start the frontend development server:
    ```
-   cd student-expense-tracker
+   cd Student-Expense-Tracker-v2
    npm start
    ```
 
