@@ -21,6 +21,8 @@ The Student Expense Tracker is a React-based web application designed to help st
 Before you begin, ensure you have the following installed:
 - Node.js (v14.0.0 or later)
 - npm (v6.0.0 or later)
+- Python 3.8+
+- PostgreSQL 12+ 
 
 ## Installation
 
