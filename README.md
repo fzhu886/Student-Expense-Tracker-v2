@@ -113,4 +113,4 @@ This project is licensed under the MIT License.
 
 Fan Zhu - fzhu@ualberta.ca
 
-Project Link: [https://github.com/your-username/student-expense-tracker](https://github.com/your-username/student-expense-tracker)
+Project Link: (https://github.com/fzhu886/Student-Expense-Tracker-v2/tree/main)
