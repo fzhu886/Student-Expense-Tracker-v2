@@ -95,7 +95,16 @@ npm start
 
 This will launch the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Building for Production
+## Deployment
+
+### Backend Deployment
+
+1. Update `ALLOWED_HOSTS` in `settings.py` with your domain or IP address.
+2. Set `DEBUG = False` in `settings.py` for production.
+3. Configure your web server (e.g., Nginx) to serve Django using WSGI.
+4. Set up environment variables for sensitive information (e.g., `SECRET_KEY`, database credentials).
+
+### Frontend Deployment
 
 To create a production build, use:
 
@@ -105,7 +114,7 @@ npm run build
 
 This command builds the app for production to the `build` folder, optimizing the build for the best performance.
 
-## Deployment
+
 
 The app is currently deployed on Netlify. To deploy updates:
 
