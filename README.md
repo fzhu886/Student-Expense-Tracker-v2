@@ -36,6 +36,7 @@ Before you begin, ensure you have the following installed:
 
 2. Create a virtual environment and activate it:
    ```
+   pip install virtualenv
    python -m venv venv
    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
    ```
